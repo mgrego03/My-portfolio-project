@@ -1,0 +1,26 @@
+
+
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.bg-black {
+  color: red;
+  background: #002;
+  font-size: 30px;
+}
+
+
+#main-header .port-item {               /* increase the width   */
+  width: 30%;
+}
+
+
+
+.the-blocks a{
+    color:black;
+}
+
+

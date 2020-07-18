@@ -1,0 +1,119 @@
+{% extends 'portfolio/basetemplate.html'%}   <!-- will send it to base_bootstrap, then check for block content-->
+
+{% block content %}
+
+{% load static %}
+
+ <link href="{% static 'portfolio/custom.css' %}" rel="stylesheet">
+
+ <!-- RESUME -->
+
+ <div id="resume" class="collapse">
+      <div class="card card-body py-5">
+        <div class="row">
+            {% for project in projects %}
+               <div class="col-lg-4 col-md-6">
+                   <div class="card-deck">
+                       <div class="card">
+                           <div class="card-body">
+                               <h4 class="card-header" style="color: red;  font-size: 15px; " >{{project.position }}</h4>
+                               <p class="card-text"  style="height:100px;">{{project.description}}</p>
+
+                               <div class="card-footer">
+                                   <h6 class="text-muted">
+                                       {{project.from_date|date:'M Y'}}  <span> - </span>
+                                       {% if project.to_date %}
+                                       {{project.to_date|date:'M Y'}}
+                                       {% else %}
+                                       <strong> present </strong>
+                                       {% endif %}
+
+                                   </h6>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+
+                </div>
+            {% endfor %}
+        </div>
+      </div>
+ </div>
+
+
+
+<!-- home -->
+
+
+ <div id="home" class="collapse show">
+      <div class="card">
+
+        {% for edu in education %}
+                <div class="card-header bg-primary">
+                  Education
+                </div>
+                <div class="card-body">
+
+                    <div class="card-text">
+                       <p>  {{ edu.Degree}} <br>
+                            {{ edu.university}}  <br>
+                            {{ edu.Graduation_year}}   <br>
+                        </p>
+                    </div>
+                </div>
+          {% endfor %}
+       </div>
+
+    <div class="card-header bg-primary">
+                My Skills
+    </div>
+
+
+
+      <div class="card card-body py-5">
+            <div class="row">
+                {% for skill in skills %}
+                   <div class="col-lg-6">
+
+                           <div class="card-deck">
+                               <div class="card">
+                                    <div class="card-body">
+                                      <h4 class="card-text text-primary" >{{ skill.skill}}</h4>
+                                      <p class="card-text" > {{skill.tools}}</p>
+
+                                           <div class="card-footer">
+                                                <h6 class="text-muted">
+                                                 Years of Experience:     {{ skill.years }}
+
+                                                </h6>
+                                           </div>
+                                    </div>
+                               </div>
+                           </div>
+
+                    </div>
+                {% endfor %}
+            </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+ <script>
+    $('.port-item').click(function () {
+      $('.collapse').collapse('hide');
+    });
+</script>
+
+{% endblock %}
