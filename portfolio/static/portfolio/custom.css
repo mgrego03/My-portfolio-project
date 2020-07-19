@@ -1,5 +1,6 @@
 
 
+
 #main-header img {
   width: 100%;
   height: 100%;
@@ -7,14 +8,14 @@
 
 
 .bg-black {
-  color: red;
+  color: white;
   background: #002;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 
 #main-header .port-item {               /* increase the width   */
-  width: 30%;
+  width: 35%;
 }
 
 
@@ -23,6 +24,8 @@
     color:black;
 }
 
-#red-coloring {
-     color:red;
+@media (min-width: 1199px) {           /* to avoid the space after port-item  */
+  .port-item {
+    padding: 3em !important;
+  }
 }

@@ -18,44 +18,54 @@
 
         <title> Mathews gregory</title>   <!-- will be shown in the page tab above the screen -->
 </head>
+
+
 <body>
  <div class="container">
     <header id="main-header">
       <div class="row no-gutters">
         <div class="col-lg-4 col-md-5">
-          <img src="{% static 'portfolio/Capture22.PNG' %}" alt="">
+          <img src="{% static 'portfolio/image1.jpg' %}" alt="">
         </div>
+
         <div class="col-lg-8 col-md-7">
           <div class="d-flex flex-column">
             <div class="p-5 bg-dark text-white">
               <div class="d-flex flex-row justify-content-between align-items-center">
-                <h1 class="display-4 #red-coloring">Mathews Gregory@</h1>
-                  <div class="d-none d-md-block">
+                <h1 class="display-4">Mathews Gregory
+                </h1>
+                  <div>
                     <a  href="https://www.linkedin.com/in/mathews-gregory-595b37116/" class="text-white" >
                       <i class="fab fa-linkedin"></i>
                      </a>
-                </div>
-                <div>
-                  <a href="https://github.com/mgrego03?tab=repositories" class="text-white">
-                    <i class="fab fa-github"></i>
-                  </a>
-                </div>
+                  </div>
+                    <div>
+                      <a href="https://github.com/mgrego03?tab=repositories" class="text-white">
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </div>
               </div>
             </div>
+
+            <div class="p-5 bg-black" >
+                Developer with experience in SQL and Django
+
+            </div>
+
 
 
             <div class="the-blocks">
               <div class="d-flex flex-row text-white align-items-stretch text-center">   <!-- stretch , from top to bottom -->
-                <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
+                <div class="port-item p-5 bg-primary" data-toggle="collapse" data-target="#home">
                   <i class="fas fa-home fa-2x d-block"></i>
                  <!-- <span class="d-none d-sm-block #for-home">Home</span>-->
                   <a href ="#" class="d-none d-sm-block"> Home </a>
                 </div>
-                <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
+                <div class="port-item p-5 bg-success" data-toggle="collapse" data-target="#resume">
                   <i class="fas fa-graduation-cap fa-2x d-block"></i>
                   <a href ="#" class="d-none d-sm-block"> Resume </a>
                 </div>
-                <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
+                <div class="port-item p-5 bg-warning" data-toggle="collapse" data-target="#work">
                   <i class="fas fa-folder-open fa-2x d-block"></i>
                   <a href ="{% url 'project:all_project' %}" class="d-none d-sm-block"> Projects </a>
                 </div>
