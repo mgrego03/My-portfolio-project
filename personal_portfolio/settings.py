@@ -129,3 +129,11 @@ MEDIA_URL = '/media/'         # this will be the url , where the image is placed
 
 # want to create a folder for all the image files.    media/portfolio/images - portfolio/images is from models.py
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+# if local_settings.py file exist then implement what is inside that file.
+# in production we will ignore local_settings.py file using gitignore
+try:
+    from .local_settings import *
+except ImportError:
+    print("looks like there is no local file. you must be in production")
