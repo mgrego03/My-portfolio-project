@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'xog(py0e10)rh9mo%tjdap4htye!y8@=r!&-o6cf_j61#5(0y_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mathewsgregory.pythonanywhere.com']
 
 
 # Application definition
@@ -123,6 +123,7 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'         # this will be the url , where the image is placed
 
