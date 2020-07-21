@@ -32,7 +32,15 @@
                  {{ project.project_tech}}
                 </p>
 
-                    <a  class="btn btn-success" href ="  {{project.project_url.url}}">link to Github</a>
+
+            {% if project.project_url %}                         <!--   if project.url exist then display the a tag   Link  -->
+                <a class="btn btn-success" href="{{ project.project_url }}">                              <!-- you can provide the destination link in the django admin site -->
+                  link to Github
+                </a>
+
+            {% endif %}
+
+
             </div>
 
 
