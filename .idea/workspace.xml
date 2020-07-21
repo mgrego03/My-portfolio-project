@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="238e693d-d09f-405c-bf46-c80b59842d32" name="Default Changelist" comment="" />
+    <list default="true" id="238e693d-d09f-405c-bf46-c80b59842d32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/project/all_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/project/all_project.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../To study/django/django 3/personal_portfolio_project3" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,9 +63,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="401" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1594178737983" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1594354205145">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1595304002432">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1594354205145" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595304002432" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1595303825682">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1595303825682" />
   </component>
 </project>
