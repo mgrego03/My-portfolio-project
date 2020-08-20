@@ -1,0 +1,51 @@
+{% load static %}     <!-- used to access the static folder  from the portfolio -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+                  <link href="{% static 'portfolio/custom.css' %}" rel="stylesheet">   <!-- to access the style sheet -->
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+
+<div class="container">
+ <div class="row" >
+      <div class="card" style="width: 20rem;">
+            <div class="card-body bg-dark text-white">
+               <!--    <img class="card-img-top" src="https://source.unsplash.com/random/300x200" alt="">  -->
+                 <img class="image2" src="{% static 'portfolio/image2.jpg' %}"  alt="">
+                <h4 class="card-title "> Mathews Gregory</h4>
+                <h6 class="card-subtitle text-muted">Developer</h6>
+                <p class="card-text "> Education : MS in Computer Science
+                 Citizenship : US </p>
+
+            </div>
+      </div>
+
+      <div class="card" style="width: 40rem;">
+            <div class="card-body">
+                <h4 class="card-title bg-dark text-white"> Welcome {{ user.username }} , to MyProfile page.  </h4>
+
+                <p class="card-text"> <p>Born and raised in India. Came to United States with my family when i was 15. Graduated from
+                New York Institute of technology with MS.Computer Science. </p>
+
+                  <p>Currently working as a Developer at Jzanus, a Health Care Revenue Cycle Management Company. Priority of the work includes Designing
+                    and testing Database Queries. Resolve Production Issues. Create new procedures and jobs for reporting and data importing. Utilized
+                      python for predictive analysis and machine learning to reduce manual task. </p>
+
+                 <p>  Have developed Django/python application. Trying to learn React.js during my free time. </p>
+
+            </div>
+      </div>
+
+ </div>
+</div>
+</body>
+</html>

@@ -45,6 +45,15 @@
                       </a>
                     </div>
               </div>
+                <div class="row justify-content-end">
+                    {% if user.is_authenticated %}
+                    <div> <a  class ='mx-2 text-white' href ="{% url 'logout' %}"> Logout</a></div>
+                    <div>  <a class ='mx-2 text-white' href ="{% url 'profile' %}"> MyProfile</a></div>
+                    {% else %}
+                      <a class ='mx-2 text-white' href ="{% url 'register' %}"> Register</a>
+                      <a class ='mx-2 text-white' href ="{% url 'login' %}"> Login</a>
+                    {% endif %}
+                </div>
             </div>
 
             <div class="p-5 bg-black" >
@@ -76,6 +85,19 @@
         </div>
       </div>
     </header>
+
+
+     <!-- to display any messages, will the signup message below after successfuly signed up -->
+      {% if messages %}
+
+                {% for message in messages %}
+                 <div class="alert alert- {{message.tags}}">
+                    {{message}}
+                 </div>
+                {% endfor %}
+      {% endif %}
+
+
 
 
   {% block content %}       <!-- in here it will go back to the html, to check it has any block to put here -->

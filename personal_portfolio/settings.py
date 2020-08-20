@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'portfolio.apps.PortfolioConfig',
     'project.apps.ProjectConfig',
+    'users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
@@ -130,6 +131,11 @@ MEDIA_URL = '/media/'         # this will be the url , where the image is placed
 # want to create a folder for all the image files.    media/portfolio/images - portfolio/images is from models.py
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+
+#  send the user to this page below, once the user login
+LOGIN_REDIRECT_URL = 'portfolio:home'
+
+LOGIN_URL = 'login'     # by default django sends to account/login.
 
 # if local_settings.py file exist then implement what is inside that file.
 # in production we will ignore local_settings.py file using gitignore

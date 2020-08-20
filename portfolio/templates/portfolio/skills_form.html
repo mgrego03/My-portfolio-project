@@ -1,0 +1,66 @@
+
+
+{% load static %}     <!-- used to access the static folder  from the portfolio -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+       <!-- Bootstrap CSS -->
+         <link href="{% static 'portfolio/custom.css' %}" rel="stylesheet">   <!-- to access the style sheet -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">   <!-- to include google font into the stylesheet-->
+
+
+</head>
+
+
+  <body>
+
+
+
+<div class="container">
+   <div class ='row'>
+      <div  class ='col-md-6'>
+          <div class="card">
+              <div class ='card-header bg-info text-white'>
+                   <div class="card-title">
+                       Add/Update New Skills
+                   </div>
+              </div>
+              <div class ='card-body'>
+                  <form method="POST">
+                      {% csrf_token %}
+                     {% for field in form %}
+                          <div class="form-group">
+
+                              {{field.name }} <span> :</span>
+                              {{field}}
+                          </div>
+
+                        {% endfor %}
+
+                         <button class ='btn-info' type="submit">Save</button>
+
+                  </form>
+
+              </div>
+          </div>
+      </div>
+   </div>
+</div>
+
+
+
+
+
+
+
+</body>

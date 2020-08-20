@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path , include
 
+from users import views  as user_views
+from django.contrib.auth import views as authentication_views
+
 from portfolio import views
 
 from django.conf.urls.static import static   # to click and view the image uploaded in django admin
@@ -27,9 +30,20 @@ from django.conf import settings       # to access information from the settings
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('' , views.home , name = 'home' ),
+    path('' , include('portfolio.urls') ),
 
-    path('project/', include('project.urls'))
+    path('project/', include('project.urls')) ,
+
+    path('register/', user_views.register , name ='register'),
+
+    path('login/' , authentication_views.LoginView.as_view(template_name ='users/login.html') , name ='login') ,
+    # above url will use an inbuilt view  (authentication_views )  above is a class based view, need to have .as_view()
+
+    path('logout/', authentication_views.LogoutView.as_view(template_name ='users/logout.html'), name='logout') ,
+    # these two views  loginview and logoutview are already created by django.  now we to build templates for these
+
+    path('profile/' , user_views.profilepage  , name ='profile') ,
+
 ]
 
 

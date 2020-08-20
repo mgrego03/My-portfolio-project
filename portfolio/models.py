@@ -18,7 +18,7 @@ class Project(models.Model):
 class Skills (models.Model):
     skill = models.CharField(max_length = 50)
     years = models.CharField(max_length = 50)
-    tools = models.TextField(max_length=500 , blank = True , null = True)
+    tools = models.TextField(max_length=100 , blank = True , null = True)
 
     def __str__(self):
         return self.skill
