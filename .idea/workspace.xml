@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="238e693d-d09f-405c-bf46-c80b59842d32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/skills_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/skills_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/Final-2019.docx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/Final-2019.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/basetemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/basetemplate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +64,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="401" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1594178737983" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1596595333075">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1600403618483">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596595333075" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600403618483" />
     <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1595303825682">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
