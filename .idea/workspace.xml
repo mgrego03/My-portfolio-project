@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="238e693d-d09f-405c-bf46-c80b59842d32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/basetemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/basetemplate.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,17 +57,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="401" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594178737983">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1609284849539">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="401" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1594178737983" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1600403618483">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1609284849539" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1609284840830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600403618483" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1595303825682">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1595303825682" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1609284840830" />
   </component>
 </project>
