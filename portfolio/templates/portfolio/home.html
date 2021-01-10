@@ -59,9 +59,26 @@
                                 {{ edu.university}}  <br>
                                 {{ edu.Graduation_year}}   <br>
                             </p>
+
                         </div>
                     </div>
              {% endfor %}
+
+
+
+          <!-- certificate image -->
+          <div class="container">
+              <div class="row mb-2">
+                  <div class="col-md-2">
+                      <a href="{% static 'portfolio/Degree.jpg' %}" data-toggle="lightbox" data-gallery="img-gallery" data-height="20"
+                         data-width="20">
+
+                         <img src="{% static 'portfolio/Degree.jpg' %}" alt="" class="img-fluid">
+                      </a>
+                  </div>
+
+              </div>
+          </div>
       </div>
 
         <div class="card-header bg-primary">
@@ -119,5 +136,14 @@
       $('.collapse').collapse('hide');
     });
 </script>
+
+
+ <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+</script>
+
 
 {% endblock %}

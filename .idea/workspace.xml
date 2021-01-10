@@ -4,6 +4,7 @@
     <list default="true" id="238e693d-d09f-405c-bf46-c80b59842d32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/basetemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/basetemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../glozzom_final/glozzom" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -58,13 +59,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1609284849539">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1610214450244">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1609284849539" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1609284840830">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610214450244" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1610212905472">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1609284840830" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1610212905472" />
   </component>
 </project>
