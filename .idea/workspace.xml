@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="238e693d-d09f-405c-bf46-c80b59842d32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/basetemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/basetemplate.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +62,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610214450244" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1610212905472">
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1611882218935">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1610212905472" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1611882218935" />
   </component>
 </project>
